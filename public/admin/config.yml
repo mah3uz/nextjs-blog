@@ -3,7 +3,7 @@ backend:
 
 site_url: https://hkshemul.com
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 media_folder: assets/uploads
 
 collections: # A list of collections the CMS should be able to edit
@@ -28,14 +28,14 @@ collections: # A list of collections the CMS should be able to edit
     #     field: draft
     #     pattern: true
     # view_groups:
-      - label: Year
-        field: date
-        pattern: \d{4}
-      - label: Drafts
-        field: draft
+      # - label: Year
+      #   field: date
+      #   pattern: \d{4}
+      # - label: Drafts
+      #   field: draft
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
-      # - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
       # - {
       #     label: 'Publish Date',
       #     name: 'created_at',
