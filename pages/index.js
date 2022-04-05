@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 export default function Index() {
   return (
@@ -5,19 +6,22 @@ export default function Index() {
       <div className="mx-auto max-w-md md:max-w-screen-lg">
         <nav className="flex flex-wrap items-center justify-center gap-4 pt-7 md:justify-between md:gap-0 md:pt-4">
           <div>
-            <h1><a className="text-3xl font-medium text-gray-600 hover:text-gray-400 md:text-xl" href="#">HK Shemul</a></h1>
-          </div>
-          <div>
             <ul className="mt-7 flex justify-between text-gray-500 md:text-xl">
-              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400"><a href="/">HOME</a></li>
-              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400"><a href="#about">ABOUT</a></li>
-              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400"><a href="/blog">BLOG</a></li>
+              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400">
+                <Link href="/"><a>Home</a></Link>
+              </li>
+              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400">
+                <Link href="#about"><a>ABOUT</a></Link>
+              </li>
+              <li className="mx-5 h-7 transition hover:border-b-2 hover:border-red-400">
+                <Link href="/blog"><a>BLOG</a></Link>
+              </li>
             </ul>
           </div>
           <div className="flex justify-between gap-4">
             <div >
               <a className="hover:text-gray-800" href="https://web.facebook.com/#">
-                <img className="w-6 hover:rounded-full hover:border-2 hover:border-yellow-500" src="https://www.linkpicture.com/q/icons8-facebook.svg" alt="facebook" srcset="" />
+                <img className="w-6 hover:rounded-full hover:border-2 hover:border-yellow-500" src="https://www.linkpicture.com/q/icons8-facebook.svg" alt="facebook" />
               </a>
             </div>
             <div className="hover:text-gray-400">
@@ -27,7 +31,7 @@ export default function Index() {
             </div>
             <div className="hover:text-gray-400">
               <a href="https://www.instagram.com/#">
-                <img className="w-6 hover:rounded-full hover:border-2 hover:border-yellow-500" src="https://www.linkpicture.com/q/iconmonstr-instagram-14.svg" alt="" srcset="" />
+                <img className="w-6 hover:rounded-full hover:border-2 hover:border-yellow-500" src="https://www.linkpicture.com/q/iconmonstr-instagram-14.svg" alt="" />
               </a>
             </div>
           </div>
