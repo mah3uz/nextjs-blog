@@ -143,7 +143,7 @@ export default function Index({ posts, globalData }) {
                     <div className="md:px-6">
                       <p className="mb-4 text-2xl text-gray-900 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit scelerisque neque, proin bibendum diam.</p>
                       <div className="text-gray-700 md:text-lg">
-                        <p ><a href="mirajulislam0509@gmail.com">mirajulislam0509@gmail.com</a></p>
+                        <p ><a href="mail@mailnator.com">mail@mailnator.com</a></p>
                         <p ><a href="#">twitter.com/johndoe</a></p>
                         <p ><a href="#">behance.com/johndoe</a></p>
                       </div>
